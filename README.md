@@ -1,5 +1,10 @@
 # devops-desafio2
-Para rodar, executar o comando:
+Para criar a imagem do Docker, executar o comando:
+```
+docker build -t desafio2 .
+```
+
+Para rodar um container, executar o comando:
 ```
 docker run -d -p 8087:9090 -e APP_NAME=irenio -e APP_COLOR=yellow desafio2
 ```
